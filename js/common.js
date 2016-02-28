@@ -27,3 +27,26 @@ $(window).load(function() {
 	$(".loader").delay(400).fadeOut("slow");
 
 });
+
+$(document).ready(function(){
+  $('.bxslider').bxSlider({
+  	slideWidth: 330,
+    minSlides: 2,
+    maxSlides: 5,
+    slideMargin: 10,
+    controls: false
+  });
+});
+
+$("#form").submit(function() {
+	$.ajax({
+		type: "POST",
+		url: "mail.php",
+		data: $(this).serialize()
+	}).done(function() {
+		alert("Спасибо за заявку!" + ".form-control");
+		setTimeout(function() {
+			$.fancybox.close();
+		}, 1000);
+	});
+});

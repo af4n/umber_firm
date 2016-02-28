@@ -23,7 +23,7 @@ html.js .loader {
     position: absolute; }
 
 body {
-  font-family: "RobotoRegular", sans-serif;
+  font-family: "CodeProLight", sans-serif;
   font-weight: normal;
   font-size: 14px;
   min-width: 320px;
@@ -43,27 +43,27 @@ body textarea:required:valid {
 p {
   font-size: 15px;
   color: #262626;
-  font-family: "MuseoSansCyrl"; }
+  font-family: "MuseoSansCyrl_100"; }
 
 h1 {
   font-size: 55px;
   color: #000;
-  font-family: "MuseoSansCyrl"; }
+  font-family: "MuseoSansCyrl_100"; }
 
 h2 {
   font-size: 32px; }
 
-.container {
-  min-width: 1920px; }
+hr {
+  margin-bottom: 60px;
+  color: #e5e5e5; }
 
 .title {
-  font-weight: bold; }
+  font-family: "MuseoSansCyrl_500"; }
 
 .hidden {
   display: none; }
 
 .header {
-  min-width: 1920px;
   background-color: #f6f6f6; }
   .header_photo {
     float: left;
@@ -73,7 +73,7 @@ h2 {
     overflow: hidden; }
     .header_text span {
       font-size: 22px;
-      font-family: "MuseoSansCyrl";
+      font-family: "MuseoSansCyrl_300";
       margin-left: 155px;
       text-transform: uppercase; }
     .header_text h1 {
@@ -98,7 +98,7 @@ h2 {
       overflow: hidden;
       margin: 80px 0 0 120px; }
     .section_right_photo .description {
-      margin-left: 120px; }
+      margin: 10px 0 0 120px; }
   .section_right_text {
     overflow: hidden; }
     .section_right_text p {
@@ -109,9 +109,10 @@ h2 {
       margin-top: 35px; }
     .section_right_text .dnk {
       font-size: 20px;
-      font-weight: bold;
       margin-top: 105px;
-      text-indent: 20px; }
+      margin-left: 110px;
+      text-indent: 20px;
+      font-family: "MuseoSansCyrl_500"; }
 .section_bottom img {
   float: left;
   margin: 80px 0 0 233px; }
@@ -129,5 +130,81 @@ h2 {
   margin-left: 20px; }
 .section_bottom_share .gp {
   margin-left: 15px; }
+
+.section_slider h2 {
+  margin: 50px 0 60px 205px;
+  font-style: italic;
+  font-family: "PlayfairDisplayItalic"; }
+.section_slider .bxslider .title {
+  text-transform: uppercase;
+  font-family: "MuseoSansCyrl_900"; }
+.section_slider .bxslider p {
+  text-align: center;
+  font-size: 13px; }
+
+.footer .container {
+  text-align: center; }
+.footer_contacts {
+  padding: 100px 0 60px 190px;
+  border-right: 1px solid #e5e5e5; }
+  .footer_contacts .title {
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: "MuseoSansCyrl_900"; }
+  .footer_contacts p {
+    font-size: 12px; }
+.footer_new {
+  padding: 0 60px 0 0; }
+  .footer_new img {
+    float: right; }
+  .footer_new .title {
+    font-size: 33px;
+    font-style: italic;
+    font-family: "PlayfairDisplayItalic"; }
+  .footer_new p {
+    font-size: 14px;
+    font-family: "MuseoSansCyrl_300"; }
+.footer_distribution {
+  padding: 60px 235px 0 0;
+  border-left: 1px solid #e5e5e5; }
+  .footer_distribution .title {
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: "MuseoSansCyrl_900"; }
+  .footer_distribution p {
+    font-size: 12px; }
+  .footer_distribution .input-group {
+    margin-top: 50px; }
+    .footer_distribution .input-group .form-control {
+      width: 215px;
+      height: 60px;
+      margin-left: 62px;
+      text-align: center;
+      border: 2px solid #d7d7d7;
+      border-radius: 0; }
+    .footer_distribution .input-group .submit {
+      width: 100px;
+      height: 60px;
+      background-color: #e8dadc;
+      border-radius: 0;
+      font-size: 12px;
+      font-weight: bold;
+      letter-spacing: 3px;
+      font-family: "MuseoSansCyrl_700"; }
+.footer_nav {
+  margin: 60px 0 20px 0; }
+  .footer_nav span {
+    float: left;
+    margin-left: 60px;
+    color: #9f9f9f; }
+  .footer_nav nav {
+    float: right; }
+    .footer_nav nav a {
+      margin-left: 50px;
+      color: #606060;
+      font-size: 14px;
+      text-decoration: none; }
+    .footer_nav nav a:last-child {
+      margin-right: 220px; }
 
 /*# sourceMappingURL=main.css.map */
